@@ -1,3 +1,6 @@
+---
+description: Deploy the application to the specified environment
+---
 Deploy the application to the specified environment.
 
 Check the current branch, run tests, build the Docker image, and push

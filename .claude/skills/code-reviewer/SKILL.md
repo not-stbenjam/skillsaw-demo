@@ -1,5 +1,5 @@
 ---
-name: Code_Reviewer
+name: code-reviewer
 description: Reviews code for quality and correctness
 ---
 

@@ -9,13 +9,12 @@ Use Node.js 20+ for the frontend. The backend requires Go 1.22.
 
 ## Development Workflow
 
-When making changes, try to keep things simple. Keep in mind that
-the CI pipeline runs on every push to main.
+Keep changes simple. The CI pipeline runs on every push to main.
 
 ## Code Style
 
-Write clean code and follow best practices. Properly handle edge
-cases in form validation.
+Handle edge cases in form validation — validate required fields,
+length limits, and format constraints.
 
 ## Testing
 
@@ -38,10 +37,8 @@ endpoint.
 
 ## Security
 
-Never commit secrets. The API key for staging is:
-api_key = "sk-staging-8f3k29d5j6h2m9n4p7q1r8s5t2u9v6w3"
+Never commit secrets. Use environment variables for API keys.
 
 ## References
 
-See the architecture docs at [Architecture](./docs/architecture.md)
-for details. Also review src/config/database.ts for connection settings.
+Review src/config/database.ts for connection settings.

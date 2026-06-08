@@ -1,6 +1,5 @@
 ---
-globs: ["src/api/**/*.ts"]
-description: API route conventions
+paths: ["src/api/**/*.ts"]
 ---
 
 All API routes must follow RESTful conventions. Use plural nouns for
