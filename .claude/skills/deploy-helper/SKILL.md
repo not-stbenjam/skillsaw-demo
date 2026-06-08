@@ -21,5 +21,3 @@ This skill manages the deployment lifecycle for the application.
 The deployment config lives at deploy/config.yaml.
 
 Use the existing deployment scripts in `deploy/scripts/`.
-
-[Insert deployment checklist here]

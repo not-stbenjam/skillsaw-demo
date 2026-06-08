@@ -6,7 +6,6 @@ The backend uses Go with PostgreSQL.
 ## Environment
 
 Use Node.js 20+ for the frontend. The backend requires Go 1.22.
-Use 4 spaces for indentation in all TypeScript files.
 
 ## Development Workflow
 
@@ -34,7 +33,7 @@ Don't use Redux for state management.
 Don't use class components.
 Avoid using fetch directly.
 
-For LLM integration, use the claude-3-opus model via the /v1/complete
+For LLM integration, use the claude-sonnet-4-6 model via the /v1/messages
 endpoint.
 
 ## Security

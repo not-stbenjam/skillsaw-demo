@@ -8,5 +8,3 @@ to the container registry. Then trigger the deployment pipeline.
 1. Run `npm test` and `go test ./...`
 2. Build with `docker build -t app:latest .`
 3. Push to registry and trigger `kubectl rollout restart`
-
-TODO: Add support for canary deployments.
