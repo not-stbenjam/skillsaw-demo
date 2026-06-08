@@ -9,7 +9,8 @@ Use Node.js 20+ for the frontend. The backend requires Go 1.22.
 
 ## Development Workflow
 
-Keep changes simple. The CI pipeline runs on every push to main.
+Try to keep changes simple. You might want to keep in mind that
+the CI pipeline runs on every push to main.
 
 ## Code Style
 
